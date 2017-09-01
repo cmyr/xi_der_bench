@@ -1,0 +1,13 @@
+[package]
+name = "der_bench"
+version = "0.1.0"
+authors = ["Colin Rofls <colin@cmyr.net>"]
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+
+[dependencies.xi-core-lib]
+git = "https://github.com/cmyr/xi-editor.git"
+branch = "fix/crates-error"
